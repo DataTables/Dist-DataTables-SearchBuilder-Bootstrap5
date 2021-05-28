@@ -1,0 +1,49 @@
+{
+    "name": "datatables.net-searchbuilder-bs5",
+    "description": "SearchBuilder for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "main": "js/searchBuilder.bootstrap5.js",
+    "style": "css/searchBuilder.bootstrap5.css",
+    "version": "1.0.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js"
+    ],
+    "keywords": [
+        "SearchBuilder",
+ "Filtering",
+ "Search",
+        "Bootstrap",
+ "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-searchbuilder": ">=1.0.1",
+        "datatables.net-bs5": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-Bootstrap5.git"
+    }
+}

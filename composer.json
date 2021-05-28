@@ -1,0 +1,35 @@
+{
+    "version": "1.0.1",
+    "name": "datatables.net/datatables.net-searchbuilder-bs5",
+    "description": "SearchBuilder adds user defined complex search to the DataTable with the capability to search the DataTable by creating groups and conditions. This is SearchBuilder for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-Bootstrap5"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "keywords": [
+        "SearchBuilder",
+ "Filtering",
+ "Search",
+        "Bootstrap",
+ "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
+    "require": {
+        "datatables.net/datatables.net-searchbuilder": ">=1.0.1",
+        "datatables.net/datatables.net-bs5": ">=1.10.24"
+    }
+}

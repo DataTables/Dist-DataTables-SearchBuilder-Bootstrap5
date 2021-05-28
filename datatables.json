@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/searchBuilder.bootstrap5.js",
+        "js/searchBuilder.bootstrap5.min.js"
+    ],
+    "css": [
+        "css/searchBuilder.bootstrap5.css",
+        "css/searchBuilder.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/searchBuilder.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/SearchBuilder",
+    "last-tag": "1.0.1"
+}
