@@ -140,3 +140,8 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-clearG
   width: 2em;
   margin: 0px;
 }
+
+div.dt-button-collection div.dtsb-searchBuilder {
+  padding-left: 10px;
+  padding-right: 10px;
+}
