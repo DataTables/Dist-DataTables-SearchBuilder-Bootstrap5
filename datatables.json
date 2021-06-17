@@ -11,5 +11,5 @@
         "types/searchBuilder.bootstrap5.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchBuilder",
-    "last-tag": "1.0.1"
+    "last-tag": "1.1.0"
 }
