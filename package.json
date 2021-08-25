@@ -4,17 +4,17 @@
     "main": "js/searchBuilder.bootstrap5.js",
     "style": "css/searchBuilder.bootstrap5.css",
     "types": "./types/searchBuilder.bootstrap5.d.ts",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "SearchBuilder",
- "Filtering",
- "Search",
+        "Filtering",
+        "Search",
         "Bootstrap",
- "Bootstrap5",
+        "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
