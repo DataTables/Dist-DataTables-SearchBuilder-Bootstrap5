@@ -34,6 +34,9 @@ div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title {
   display: inline-block;
   padding-top: 6px;
 }
+div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title:empty {
+  display: inline;
+}
 div.dtsb-searchBuilder div.dtsb-titleRow button.dtsb-clearAll {
   float: right;
   margin-bottom: 0.333em;
