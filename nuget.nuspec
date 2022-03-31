@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>SearchBuilder  Filtering  Search  Bootstrap  Bootstrap5  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchbuilder" version="1.2.2"/>
-            <dependency id="datatables.net-bs5" version="1.11.3"/>
+            <dependency id="datatables.net-searchbuilder" version="1.3.2"/>
+            <dependency id="datatables.net-bs5" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/searchBuilder.bootstrap5.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/searchBuilder.bootstrap5.min.css" target="content\Content"/>
         <file src="css/searchBuilder.bootstrap5.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/searchBuilder.bootstrap5.d.ts" target="content\Scripts"/>
-        <file src="types/searchBuilder.bootstrap5.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
