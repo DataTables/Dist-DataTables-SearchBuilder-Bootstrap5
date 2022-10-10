@@ -1,7 +1,9 @@
 {
     "js": [
         "js/searchBuilder.bootstrap5.js",
-        "js/searchBuilder.bootstrap5.min.js"
+        "js/searchBuilder.bootstrap5.min.js",
+        "js/searchBuilder.bootstrap5.min.mjs",
+        "js/searchBuilder.bootstrap5.mjs"
     ],
     "css": [
         "css/searchBuilder.bootstrap5.css",
@@ -11,6 +13,5 @@
         "types/searchBuilder.bootstrap5.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchBuilder",
-    "last-tag": "1.3.2",
-    "last-sync": "8d894712cc220af564594b0e4243b6839c3b5242"
+    "last-tag": "1.3.4"
 }
