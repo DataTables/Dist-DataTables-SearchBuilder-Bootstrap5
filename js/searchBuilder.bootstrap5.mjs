@@ -1,11 +1,10 @@
-
 /*! Bootstrap 5 ui integration for DataTables' SearchBuilder
  * © SpryMedia Ltd - datatables.net/license
  */
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs5';
-import DataTable from 'datatables.net-searchbuilder';
+import 'datatables.net-searchbuilder';
 
 
 $.extend(true, DataTable.SearchBuilder.classes, {
