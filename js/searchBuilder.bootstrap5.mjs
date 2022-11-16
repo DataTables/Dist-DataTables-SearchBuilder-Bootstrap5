@@ -4,7 +4,7 @@
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs5';
-import 'datatables.net-searchbuilder';
+import SearchBuilder from 'datatables.net-searchbuilder';
 
 
 $.extend(true, DataTable.SearchBuilder.classes, {

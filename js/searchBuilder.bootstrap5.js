@@ -28,10 +28,9 @@
 				require('datatables.net-bs5')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.SearchBuilder ) {
 				require('datatables.net-searchbuilder')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
