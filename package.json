@@ -5,7 +5,7 @@
     "module": "js/searchBuilder.bootstrap5.mjs",
     "style": "css/searchBuilder.bootstrap5.css",
     "types": "./types/types.d.ts",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
