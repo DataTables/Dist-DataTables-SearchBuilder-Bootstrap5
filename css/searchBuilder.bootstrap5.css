@@ -96,7 +96,7 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont {
   flex: 1;
   white-space: nowrap;
 }
-div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont span.dtsp-joiner {
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont span.dtsb-joiner {
   margin-right: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont input.dtsb-value {
