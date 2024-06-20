@@ -24,6 +24,7 @@ div.dtsb-searchBuilder {
   cursor: default;
   margin-bottom: 1em;
   text-align: left;
+  width: 100%;
 }
 div.dtsb-searchBuilder button.dtsb-button,
 div.dtsb-searchBuilder select {
