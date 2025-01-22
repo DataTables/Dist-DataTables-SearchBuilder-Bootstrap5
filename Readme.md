@@ -1,6 +1,6 @@
 # SearchBuilder for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)
 
-This package contains a built distribution of the [SearchBuilder extension](https://datatables.net/extensions/searchbuilder) for [DataTables](https://datatables.net/) with styling for [Bootstrap5](https://getbootstrap.com/).
+This is the distribution package for the [SearchBuilder extension](https://datatables.net/extensions/searchbuilder) for [DataTables](https://datatables.net/) with styling for [Bootstrap5](https://getbootstrap.com/).
 
 SearchBuilder adds user defined complex search to the DataTable with the capability to search the DataTable by creating groups and conditions.
 
@@ -9,42 +9,37 @@ SearchBuilder adds user defined complex search to the DataTable with the capabil
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-bs5
 npm install datatables.net-searchbuilder-bs5
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-searchbuilder-bs5' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-bs5';
 import 'datatables.net-searchbuilder-bs5'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-searchbuilder-bs5
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for SearchBuilder can be found [on the website](https://datatables.net/extensions/searchbuilder).
+Full documentation and examples for SearchBuilder can be found [on the DataTables website](https://datatables.net/extensions/searchbuilder).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
