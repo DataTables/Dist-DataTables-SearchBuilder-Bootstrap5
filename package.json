@@ -5,7 +5,7 @@
     "module": "js/searchBuilder.bootstrap5.mjs",
     "style": "css/searchBuilder.bootstrap5.css",
     "types": "./types/searchBuilder.bootstrap5.d.ts",
-    "version": "1.8.2",
+    "version": "1.8.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": "1.8.2",
+        "datatables.net-searchbuilder": "1.8.3",
         "datatables.net-bs5": "^2",
         "jquery": ">=1.7"
     },
