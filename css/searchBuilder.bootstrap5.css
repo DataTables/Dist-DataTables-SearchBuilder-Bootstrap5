@@ -53,6 +53,10 @@ div.dtsb-searchBuilder div.dtsb-group {
   position: relative;
   clear: both;
   margin-bottom: 0.8em;
+  margin-left: 46px;
+}
+div.dtsb-searchBuilder div.dtsb-group > button:first-child {
+  margin-left: -46px;
 }
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-search {
   float: right;
@@ -63,14 +67,10 @@ div.dtsb-searchBuilder div.dtsb-group button.dtsb-clearGroup {
   padding: 0;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
   position: absolute;
-  margin-top: 0.8em;
-  margin-right: 0.8em;
+  left: -0.8em;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria {
   margin-bottom: 0.8em;
@@ -162,6 +162,12 @@ div.dtsb-searchBuilder div.dtsb-titleRow {
 div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title {
   padding-top: 10px;
 }
+div.dtsb-searchBuilder div.dtsb-group {
+  margin-left: 49px;
+}
+div.dtsb-searchBuilder div.dtsb-group > button:first-child {
+  margin-left: -49px;
+}
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-clearGroup {
   margin-right: 8px;
 }
@@ -191,7 +197,6 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  margin-top: 10px;
   overflow: hidden;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-logic {

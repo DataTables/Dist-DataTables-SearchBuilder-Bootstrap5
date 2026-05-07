@@ -5,7 +5,7 @@
     "module": "js/searchBuilder.bootstrap5.mjs",
     "style": "css/searchBuilder.bootstrap5.css",
     "types": "./types/searchBuilder.bootstrap5.d.ts",
-    "version": "1.8.4",
+    "version": "2.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -19,26 +19,14 @@
         "Bootstrap",
         "Bootstrap5",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": "1.8.4",
-        "datatables.net-bs5": "^2",
-        "jquery": ">=1.7"
+        "datatables.net-searchbuilder": "2.0.0-beta.1",
+        "datatables.net-bs5": "3.0.0-0"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -48,6 +36,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-SearchBuilder-Bootstrap5.git"
+        "url": "git+https://github.com/DataTables/SearchBuilder.git"
     }
 }
