@@ -28,7 +28,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-searchbuilder": "2.0.0",
-        "datatables.net/datatables.net-bs5": "^3"
+        "datatables.net/datatables.net-searchbuilder": "2.1.0",
+        "datatables.net/datatables.net-bs5": "^3.1"
     }
 }

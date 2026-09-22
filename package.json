@@ -5,7 +5,7 @@
     "module": "./js/searchBuilder.bootstrap5.mjs",
     "style": "./css/searchBuilder.bootstrap5.css",
     "types": "./types/searchBuilder.bootstrap5.d.ts",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "files": [
         "js",
         "css",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": "2.0.1",
-        "datatables.net-bs5": "^3"
+        "datatables.net-searchbuilder": "2.1.0",
+        "datatables.net-bs5": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
