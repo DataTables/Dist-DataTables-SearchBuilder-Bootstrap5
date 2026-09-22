@@ -1,4 +1,4 @@
-/*! SearchBuilder Bootstrap 5 styling 2.0.1 for DataTables
+/*! SearchBuilder Bootstrap 5 styling 2.1.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
