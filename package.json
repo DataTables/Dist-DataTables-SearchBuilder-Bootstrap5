@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/searchBuilder.bootstrap5.d.ts",
+            "style": "./css/searchBuilder.bootstrap5.css",
             "import": "./js/searchBuilder.bootstrap5.mjs",
-            "default": "./js/searchBuilder.bootstrap5.mjs",
-            "require": "./js/searchBuilder.bootstrap5.js"
+            "require": "./js/searchBuilder.bootstrap5.js",
+            "default": "./js/searchBuilder.bootstrap5.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
